@@ -43,7 +43,7 @@ function flamesName(character) {
 	switch(character) {
 		case "f": return "Friends";
 		case "l": return "Love";
-		case "a": return "Affection";
+		case "a": return "Affair";
 		case "m": return "Marriage";
 		case "e": return "Enemies";
 		case "s": return "Siblings";
