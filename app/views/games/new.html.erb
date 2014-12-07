@@ -1,8 +1,17 @@
-<div class="input-group">
+<!-- <div class="input-group">
 		<input id="name1" type="text" class="form-control" placeholder="Your name">
 		<input id="name2" type="text" class="form-control" placeholder="His or her name">
 </div>
 <button onClick="showAnswer()" type="button" id="btn-custom" class="btn btn-primary btn-lg btn-block">Test your relation</button>
+<div id="answer"></div> -->
+
+<%= form_for @user do |f| %>
+	<div class="input-group">
+		<%= f.text_field :user, id: "name1", class: "form-control", placeholder: "Your name" %>
+		<%= f.text_field :partner, id: "name2", class: "form-control", placeholder: "Your name" %>
+		<%= f.submit "Test your relation", id: "btn-custom", class: "btn btn-primary btn-lg btn-block" %>
+	</div>
+<% end %>
 <div id="answer"></div>
 
 <script>
@@ -12,4 +21,4 @@
 		var answer = flamesGame(name1, name2);
 		document.getElementById("answer").innerHTML = answer;
 	}
-	</script>
+</script>
