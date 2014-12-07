@@ -1,6 +1,6 @@
 function flamesCount(name1, name2) {
-	name1 = name1.toLowerCase().split("");
-	name2 = name2.toLowerCase().split("");
+	name1 = name1.toLowerCase().replace(/\s/g, "").split("");
+	name2 = name2.toLowerCase().replace(/\s/g, "").split("");
 	var i = 0;
 	var j = 0;
 
