@@ -1,0 +1,68 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	margin: 0 0;
+}
+
+h2 {
+	background: #C0392B;
+	color: white;
+	margin: 0 0;
+	padding: 12px 16px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+.input-group {
+	margin: auto;
+	margin-top: 15px;
+
+}
+
+.form-control {
+	height: 70px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+
+.btn-custom {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 536px;
+	height: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+#answer {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 40px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	background-color: #f5f5f5;
+	width: 100%;
+}
+
+#footer .text-muted {
+	margin: 20px auto;
+	text-align: center;
+}
+
