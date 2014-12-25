@@ -6,10 +6,11 @@ class GamesController < ApplicationController
   def create
   	@user = Game.new(user_params)
   	if @user.save
-  		flash[:success] = "Yo Yo"
+  		flash.keep[:success] = "Yo Yo"
   	else
   		flash[:danger] = "Not Success"
   	end
+    # byebug
   	redirect_to root_path
   	flash[:successs] = "a"
   end
